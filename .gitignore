@@ -1,0 +1,65 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# --------------------
+# Python tooling
+# --------------------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --------------------
+# Jupyter / Notebooks
+# --------------------
+.ipynb_checkpoints/
+
+# --------------------
+# Environment variables
+# --------------------
+.env
+.env.*
+*.env
+
+# --------------------
+# Logs & runtime files
+# --------------------
+*.log
+logs/
+tmp/
+
+# --------------------
+# ML / AI artifacts
+# --------------------
+mlruns/
+models/
+artifacts/
+data/
+datasets/
+
+# --------------------
+# OS / Editor noise
+# --------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --------------------
+# Docker / Kubernetes
+# --------------------
+*.pid
